@@ -1,0 +1,39 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    background-color: #050401;
+    padding-top: 42px;
+    align-items: center;
+    border-radius: 25px;
+    background-image: url('/avatar-mac.svg');
+    background-repeat: no-repeat;
+    background-position:  right 30% bottom;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title h2 {
+    margin: 0;
+    color: #FFFAFF;
+}
+
+.title.top img {
+    margin-left: 10px;
+}
+
+.title.bottom img {
+    margin-right: 10px;
+}
+
+.title p {
+    color: #FFFAFF;
+}
+
+.cards {
+    padding: 50px 0px 100px 0px;
+    width: 60%;
+    max-width: 500px;
+}
