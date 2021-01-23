@@ -1,0 +1,23 @@
+.container_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_row h3 {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.container_row h5 {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.container p {
+    margin: 0;
+}
+
+.container {
+    margin: 20px 0px;
+}

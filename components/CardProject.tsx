@@ -1,19 +1,26 @@
 import styles from '../styles/CardProject.module.css'
+import Link from 'next/link'
 
-export default function CardProject() {
+export default function CardProject({ project }) {
 
     return (
         <>
         <div className={styles.card}>
             <div>
                 <p>
-                    Qui logo tecnologia
+                    {project.technologies.map((tech) => (
+                        <img key={tech.value} src={`/${tech.value}.svg`} />
+                    ))}
                 </p>
             </div>
             <div>
-                <p>
-                    Qui nome del project
-                </p>
+                <Link href={`/project/${project.slug}`}>
+                    <a>
+                        <p>
+                            {project.name}
+                        </p> 
+                    </a>
+                </Link>
             </div>
         </div>
         </>

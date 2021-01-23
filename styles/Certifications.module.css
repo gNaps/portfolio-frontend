@@ -1,0 +1,18 @@
+.container {
+    margin-bottom: 100px;
+}
+
+.container_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_row h3 {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.certificate_img {
+    margin: 20px;
+}

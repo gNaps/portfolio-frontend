@@ -1,0 +1,110 @@
+[
+    {
+        "slug": "yume",
+        "technologies": [
+            {
+                "value": "icon-react"
+            },
+            {
+                "value": "icon-csharp"
+            }
+        ],
+        "name": "Yume - Web App",
+        "subtitle": "a web application for videogamers.",
+        "description": "Yume is a web application that allows users to create a own list of videogame. Users can insert videogame to our collection, mark them as finish or tu buy.",
+        "screenshots": [
+            {
+                "value": "images/yume/screenshot_1.png"
+            },
+            {
+                "value": "images/yume/screenshot_2.png"
+            }
+        ],
+        "implementation": "I had design the user interface with Sketch. For the backend I created an API with .NET Core, for frontend NextJS.",
+        "github": "https://github.com/gNaps/YumeApp",
+        "online": "https://yume-app.vercel.app"
+    },
+
+    {
+        "slug": "desiderando",
+        "technologies": [
+            {
+                "value": "icon-react"
+            },
+            {
+                "value": "icon-node"
+            }
+        ],
+        "name": "Desiderando - Web App",
+        "subtitle": "a web application for your gifts.",
+        "description": "Desiderando is a web application that allows users to create a own giftslists. Users can invite other users for let them know how they want for christmas, birthday or san valentine!",
+        "screenshots": [
+            {
+                "value": "images/desiderando/screenshot_1.png"
+            },
+            {
+                "value": "images/desiderando/screenshot_2.png"
+            },
+            {
+                "value": "images/desiderando/screenshot_3.png"
+            }
+        ],
+        "implementation": "I had design the user interface with Sketch. For the backend I used Strapi, for frontend NextJS.",
+        "github": "https://github.com/gNaps/desiderando-frontend",
+        "online": "https://desiderando.vercel.app"
+    },
+
+    {
+        "slug": "strapi-plugin-membership-light",
+        "technologies": [
+            {
+                "value": "icon-node"
+            }
+        ],
+        "name": "Strapi plugin membership light",
+        "subtitle": "a simple plugin of strapi.",
+        "description": "This plugin allows to integrate a membership system on your products into your ecommerce website",
+        "screenshots": [],
+        "implementation": "I had develop this plugin using strapi.",
+        "github": "https://github.com/gNaps/strapi-plugin-membership-light",
+        "online": ""
+    },
+
+    {
+        "slug": "crypto-wallet",
+        "technologies": [
+            {
+                "value": "icon-react"
+            },
+            {
+                "value": "ethereum"
+            }
+        ],
+        "name": "Crypto Wallet",
+        "subtitle": "tool made by ethers.",
+        "description": "This tool allows to see your found on matic or mainnet",
+        "screenshots": [],
+        "implementation": "I had develop this plugin using ethers and conditional tokens.",
+        "github": "https://github.com/gNaps/crypto-wallet",
+        "online": ""
+    },
+
+    {
+        "id": "collaboraction-note-spese",
+        "technologies": [
+            {
+                "value": "icon-angular"
+            },
+            {
+                "value": "icon-csharp"
+            }
+        ],
+        "name": "Collaboraction - Web and mobile app",
+        "subtitle": "An app for the expense reports",
+        "description": "This app allows to user to manage theirs expense reports",
+        "screenshots": [],
+        "implementation": "I had develop this app on my jon by SB Italia. We're using our home-made framework Agevole.",
+        "github": "",
+        "online": "https://www.sbitalia.com/erp-enterprise-resource-planning/collaboraction-nota-spese/#:~:text=CollaborAction%20Nota%20Spese%20%C3%A8%20la,di%20controllo%20e%20di%20analisi."
+    }
+]

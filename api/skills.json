@@ -1,0 +1,34 @@
+[
+    {
+        "icon": "icon-react",
+        "name": "React/NextJS"
+    },
+    {
+        "icon": "icon-angular",
+        "name": "Angular"
+    },
+    {
+        "icon": "icon-js",
+        "name": "Javascript"
+    },
+    {
+        "icon": "icon-csharp",
+        "name": "C#/.Net"
+    },
+    {
+        "icon": "icon-sql",
+        "name": "MSSQL"
+    },
+    {
+        "icon": "icon-node",
+        "name": "NodeJS/Strapi"
+    },
+    {
+        "icon": "icon-ionic",
+        "name": "Cordova + Ionic"
+    },
+    {
+        "icon": "icon-ux",
+        "name": "Passion for ui/ux"
+    }
+  ]

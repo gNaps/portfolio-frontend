@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="46px" viewBox="0 0 44 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icons8-angularjs</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-409.000000, -3081.000000)" fill="#FFFAFF" fill-rule="nonzero">
+            <g id="Resume" transform="translate(49.000000, 2070.000000)">
+                <g id="Skill" transform="translate(0.000000, 903.000000)">
+                    <g id="Angular" transform="translate(332.000000, 81.000000)">
+                        <g id="icons8-angularjs" transform="translate(28.000000, 27.000000)">
+                            <path d="M21.929688,0.0019531 C21.819813,0.0024531 21.709016,0.0206406 21.603516,0.0566406 L0.671875,7.3417969 C0.227875,7.4957969 -0.0501875,7.93925 0.0078125,8.40625 L3.3164062,35.529297 C3.3554062,35.850297 3.5450781,36.133109 3.8300781,36.287109 L21.478516,45.878906 C21.626516,45.959906 21.791078,46 21.955078,46 C22.120078,46 22.286547,45.958953 22.435547,45.876953 L40.173828,36.154297 C40.455828,35.999297 40.647547,35.717438 40.685547,35.398438 L43.992188,8.277344 C44.050187,7.8083437 43.769312,7.3609844 43.320312,7.2089844 L22.253906,0.0527344 C22.148906,0.0177344 22.039562,0.0014531 21.929688,0.0019531 Z M22,5 L35,33 L30.5625,33 L27.78125,27.007812 L16.21875,27.007812 L13.4375,33 L9,33 L22,5 Z M22,14.5 L18.080078,23 L25.919922,23 L22,14.5 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

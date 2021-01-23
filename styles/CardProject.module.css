@@ -9,3 +9,12 @@
     color: #FFFAFF;
     margin-bottom: 42px; 
 }
+
+.card img {
+    margin: 0px 10px;
+}
+
+.card a {
+    color: #FFFAFF;
+    text-decoration: none;
+}

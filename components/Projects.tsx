@@ -2,7 +2,7 @@ import CardProject from '../components/CardProject'
 
 import styles from '../styles/Projects.module.css'
 
-export default function Projects() {
+export default function Projects({ projects }) {
 
     return (
         <>
@@ -13,9 +13,11 @@ export default function Projects() {
             </div>
 
             <div className={styles.cards}>
-                <CardProject />
-                <CardProject />
-                <CardProject />
+                {
+                    projects.map((project) => (
+                        <CardProject key={project.id} project={project} />
+                    ))
+                }
             </div>
 
             <div className={`${styles.title} ${styles.bottom}`}>
