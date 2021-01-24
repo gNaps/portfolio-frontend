@@ -1,8 +1,9 @@
+import Link from 'next/link'
 import styles from '../styles/Footer.module.css'
 
 export default function Footer() {
     return (
-        <div className={styles.footer}>
+        <div className={styles.footer} id="section-contacts">
             <div className={styles.row_first}>
                 <img src="/party.svg" />
                 <h2>
@@ -12,13 +13,27 @@ export default function Footer() {
             </div>
             <div className={styles.row_second}>
                 <div>
-                    <img src="/linkedin.svg" style={{width: '40px', marginRight: '10px'}}/>
-                    <img src="/github.svg" style={{width: '40px', marginRight: '10px'}}/>
-                    <img src="/instagram.svg" style={{width: '40px', marginRight: '10px'}}/>
+                    <Link href="https://www.linkedin.com/in/gabriele-napoli-a87529185/">
+                        <a target="_blank">
+                            <img src="/linkedin.svg" style={{width: '40px', marginRight: '10px'}}/>
+                        </a>
+                    </Link>
+                    <Link href="https://github.com/gNaps">
+                        <a target="_blank">
+                            <img src="/github.svg" style={{width: '40px', marginRight: '10px'}}/>
+                        </a>
+                        </Link>
+                    <Link href="https://www.instagram.com/napsryu/">
+                        <a target="_blank">
+                            <img src="/instagram.svg" style={{width: '40px', marginRight: '10px'}}/>
+                        </a>
+                    </Link>
                 </div>
                 <div className={styles.right}>
-                    <img src="/mail_w.svg" style={{width: '40px', marginRight: '10px'}}/>
-                    <p>gabriele.nap@gmail.com</p>
+                    <a href="mailto:gabriele.nap@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <img src="/mail_w.svg" style={{width: '40px', marginRight: '10px'}}/>
+                        <p>gabriele.nap@gmail.com</p>
+                    </a>
                 </div>
             </div>
             <p style={{marginTop: '30px'}}>© 2021 Gabriele Napoli</p>

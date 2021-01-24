@@ -7,7 +7,7 @@ import styles from '../styles/Resume.module.css'
 
 export default function Resume({ experiences, skills }) {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="section-resume">
             <h1>Resume</h1>
 
             <p>

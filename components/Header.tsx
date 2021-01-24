@@ -20,7 +20,7 @@ export default function Header() {
                 and <span>NodeJS</span>.
             </h6>
 
-            <button className={styles.btn_touch}>
+            <button className={styles.btn_touch} onClick={() => window.open('mailto:gabriele.nap@gmail.com')}>
                 Get in touch
             </button>
         </div>

@@ -10,7 +10,7 @@ import styles from '../../styles/Project.module.css'
 export default function Project({ project }) {
     return (
         <Layout>
-            <Navbar />
+            <Navbar home={false} />
             <div className={styles.container}>
                 <h1>{project.name}</h1>
                 <h4>{project.subtitle}</h4>

@@ -15,6 +15,12 @@
     align-items: center;
 }
 
+.title a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
 .title h2 {
     margin: 0;
     color: #FFFAFF;
@@ -28,6 +34,10 @@
     margin-right: 10px;
 }
 
+.title.bottom {
+    cursor: pointer;
+}
+
 .title p {
     color: #FFFAFF;
 }
@@ -37,3 +47,11 @@
     width: 60%;
     max-width: 500px;
 }
+
+@media (max-width: 575.98px) { 
+    
+    .cards {
+        width: 80%;
+    }
+}
+

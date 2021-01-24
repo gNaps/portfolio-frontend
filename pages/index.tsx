@@ -16,7 +16,7 @@ import skills from '../api/skills.json'
 export default function Home() {
   return (
     <Layout>
-      <Navbar />
+      <Navbar home={true} />
       <Header />
       <Projects projects={projects} />
       <Resume experiences={experiences} skills={skills} />

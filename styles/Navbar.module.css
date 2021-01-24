@@ -3,14 +3,18 @@
     justify-content: space-between;
     align-items: center;
     padding: 32px;
+    padding-bottom: 10px;
 }
 
 .nav li {
     display: inline;
 }
 
-.nav .left {
+.nav .left a{
     display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    color: #050401;
 }
 
 .nav .left img{
@@ -19,6 +23,12 @@
 
 .nav .right li {
     margin: 0px 20px;
+    cursor: pointer;
+}
+
+.nav .right a{
+    text-decoration: none;
+    color: #050401;
 }
 
 .nav .hamburger {
@@ -42,6 +52,11 @@
     margin-top: 10px;
     display: flex;
     justify-content: center;
+}
+
+.nav_sub a{
+    text-decoration: none;
+    color: #FFFAFF;
 }
 
 @media (max-width: 575.98px) { 

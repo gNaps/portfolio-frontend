@@ -1,7 +1,7 @@
 import styles from '../styles/Navbar.module.css'
 import { useState } from 'react'
 
-export default function Navbar() {
+export default function Navbar({ home }) {
 
     const [toggleMenu, setToggleMenu] = useState(false)
 
@@ -9,15 +9,26 @@ export default function Navbar() {
         <>
         <div className={styles.nav}>
             <div className={styles.left}>
-                <img src="/mail.svg" />
-                <p>gabriele.nap@gmail.com</p>
+                <a href="mailto:gabriele.nap@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <img src="/mail.svg" />
+                    <p>gabriele.nap@gmail.com</p>
+                </a>
             </div>
 
-            <div className={styles.right}>
-                <li>Projects</li>
-                <li>Resume</li>
-                <li>Contacts</li>
-            </div>
+            { home &&
+                <div className={styles.right}>
+                    <a href="#section-project"><li>Projects</li></a>
+                    <a href="#section-resume"><li>Resume</li></a>
+                    <a href="#section-contacts"><li>Contacts</li></a>
+                </div>
+            }
+
+            { !home &&
+                <div className={styles.right}>
+                    <a href="/"><li>Return to home</li></a>
+                </div>
+            }
+
             <div 
                 className={styles.hamburger} 
                 onClick={() => setToggleMenu(!toggleMenu)}
@@ -28,11 +39,17 @@ export default function Navbar() {
             </div>
         </div>
 
-        { toggleMenu &&
+        { toggleMenu && home &&
             <div className={styles.nav_sub}>
-                <li>Projects</li>
-                <li>Resume</li>
-                <li>Contacts</li>
+                <a href="#section-project"><li>Projects</li></a>
+                <a href="#section-resume"><li>Resume</li></a>
+                <a href="#section-contacts"><li>Contacts</li></a>
+            </div>
+        }
+
+        { toggleMenu && !home &&
+            <div className={styles.nav_sub}>
+                <a href="/"><li>Return to home</li></a>
             </div>
         }
         </>

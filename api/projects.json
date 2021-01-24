@@ -90,7 +90,7 @@
     },
 
     {
-        "id": "collaboraction-note-spese",
+        "slug": "collaboraction-note-spese",
         "technologies": [
             {
                 "value": "icon-angular"

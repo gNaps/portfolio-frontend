@@ -28,9 +28,11 @@
     margin-top: 30px;
 }
 
-.row_second .right {
+.row_second .right a{
     display: flex;
     color: #fffaff;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 @media (max-width: 575.98px) { 
